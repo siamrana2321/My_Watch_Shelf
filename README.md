@@ -24,13 +24,6 @@ A responsive static watch tracker for GitHub Pages. No backend, account, build s
 ## Run locally
 Open `index.html` or run `python -m http.server 8000` and visit `http://localhost:8000`.
 
-## Deploy to GitHub Pages
-1. Create a GitHub repository, e.g. `my-watch-shelf`.
-2. Upload `index.html`, `style.css`, `app.js`, and `README.md` to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-5. Wait for GitHub Pages to publish: `https://YOUR-USERNAME.github.io/my-watch-shelf/`.
-
 ## Data & privacy
 Your library is saved in the browser's localStorage, so it stays on the device and browser you use. It does not sync by itself. To move it to another browser or phone, use **Export backup** (top bar, or the phone menu) to download a file, then **Import backup** in the other browser. Export backups regularly as a safety net. Importing a backup replaces the current library.
 
